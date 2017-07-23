@@ -10,9 +10,9 @@
 
 
 //MQTT Server and Wifi Network Information
-#define MQTT_SERVER "192.168.1.1"
-const char* ssid="The Perkins";
-const char* password="never_alone";
+#define MQTT_SERVER "(ip address of your mqtt server)"
+const char* ssid="(your wifi network)";
+const char* password="(your password)";
 
 //Assign Control Pin and Set Static IP Address
 const int CntrlPin=16;
