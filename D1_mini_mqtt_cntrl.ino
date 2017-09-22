@@ -11,8 +11,8 @@
 
 //MQTT Server and Wifi Network Information
 #define MQTT_SERVER "192.168.1.1"
-const char* ssid="The Perkins";
-const char* password="never_alone";
+const char* ssid="(wireless SSID)"; //Insert the SSID for your wireless network
+const char* password="(password)"; //Add the password for your wireless network
 
 //Assign Control Pin and Set Static IP Address
 const int CntrlPin=16;
